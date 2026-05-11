@@ -3,19 +3,19 @@ import "./Sidebar.css";
 
 function Sidebar(){
     return (
-        <section>
+        <section className="sidebar" >
 
             {/* new chat button */}
-            <button>
-                <img src="src/assests/blacklogo.png" alt="AI logo"></img>
-                <i className="fa-solid fa-pen-to-square"></i>
+            <button >
+                <img src="/src/assets/blacklogo.png" alt="AI logo" className="logo" ></img>
+                <span><i className="fa-solid fa-pen-to-square"></i></span>
             </button>
 
             {/* history */}
             <ul className="history">
-                <li>history1</li>
-                <li>history2</li>
-                <li>history3</li>
+                <li>thread1</li>
+                <li>thread2</li>
+                <li>thread3</li>
             </ul>
 
 
