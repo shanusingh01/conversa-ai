@@ -6,12 +6,12 @@ function ChatWindow(){
         <div className="ChatWindow">
 
             <div className="navbar">
-                <span>ConverseAI <i class="fa-solid fa-chevron-down"></i> </span>
+                <span>ConversaAI <i class="fa-solid fa-chevron-down"></i> </span>
 
                 <div className="userIconDiv">
                     <span><i class="fa-solid fa-user"></i></span>
                 </div>
-
+                
             </div>
 
             <Chat/>
@@ -24,7 +24,7 @@ function ChatWindow(){
                 </div>
 
                 <p className="info">
-                    ConverseAI can make mistakes.Check important info See Cookie Prefrences.
+                    ConversaAI can make mistakes.Check important info See Cookie Prefrences.
                 </p>
 
             </div>
